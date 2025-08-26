@@ -1,5 +1,5 @@
 export const CATEGORIES = [
-  { id: 'men', name: 'Men', path: '/products/men' },
+  { id: 'men', name: 'Men', path: '/men' },
   { id: 'women', name: 'Women', path: '/products/women' },
   { id: 'kids', name: 'Kids', path: '/products/kids' },
   { id: 'accessories', name: 'Accessories', path: '/products/accessories' },

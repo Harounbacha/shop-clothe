@@ -9,6 +9,7 @@ import { Footer } from './components/common/Footer';
 import { CartSidebar } from './components/cart/CartSidebar';
 import { Home } from './pages/Home';
 import { Products } from './pages/Products';
+import { MenPage } from './pages/MenPage';
 import { LoginForm } from './components/auth/LoginForm';
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
                   <Route path="/" element={<Home />} />
                   <Route path="/products" element={<Products />} />
                   <Route path="/products/:category" element={<Products />} />
+                  <Route path="/men" element={<MenPage />} />
                   <Route path="/login" element={<LoginForm />} />
                   <Route path="/register" element={<LoginForm />} />
                   <Route 
